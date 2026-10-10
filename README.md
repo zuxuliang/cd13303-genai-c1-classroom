@@ -1,10 +1,10 @@
-# Udacity Generative AI Nanodegree - Course Materials
+# Generative AI Fundamentals - Course Materials
 
-This repository contains the complete course materials for the Udacity Generative AI Nanodegree program. It includes hands-on exercises, projects, and comprehensive learning resources covering the fundamentals of generative AI and large language models.
+This repository contains the complete course materials for the Udacity Generative AI Fundamentals course. It includes hands-on exercises, projects, and comprehensive learning resources covering the fundamentals of generative AI and large language models.
 
 ## Course Overview
 
-The Generative AI Nanodegree program provides comprehensive training in modern generative AI technologies, from foundational concepts to advanced implementation techniques. Students will learn to build, evaluate, and deploy generative AI applications using state-of-the-art tools and frameworks.
+The Generative AI Fundamentals course provides comprehensive training in modern generative AI technologies, from foundational concepts to advanced implementation techniques. Students will learn to build, evaluate, and deploy generative AI applications using state-of-the-art tools and frameworks.
 
 ## Repository Structure
 
@@ -34,11 +34,6 @@ The Generative AI Nanodegree program provides comprehensive training in modern g
 │   │   ├── starter/
 │   │   └── solution/
 │   └── README.md
-├── module-14-implementing-role-based-prompting-in-python/
-│   ├── exercises/
-│   │   ├── starter/
-│   │   └── solution/
-│   └── README.md
 ├── module-16-applying-peft-on-foundation-models/
 │   ├── exercises/
 │   │   ├── starter/
@@ -51,7 +46,10 @@ The Generative AI Nanodegree program provides comprehensive training in modern g
 │   └── README.md
 ├── project/
 │   ├── starter/              # Capstone project materials
-│   └── solution/
+│   └── requirements.txt      # Pinned project dependencies (install with --no-deps)
+├── requirements3-5.txt
+├── requirements8-10-12.txt
+├── requirements16-18-project.txt
 └── README.md
 ```
 
@@ -61,9 +59,11 @@ This repository includes three requirements files, one per group of modules. Ins
 
 ### Available Files
 
-- **`requirements3-5.txt`** - Modules 3 and 5: applications of generative AI and building applications using foundation models.
+- **`requirements3-5.txt`** - Modules 3 and 5: applications of generative AI and building applications using foundation models. This is `venv1` in the Vocareum workspace.
 - **`requirements8-10-12.txt`** - Modules 8, 10, and 12: evaluations, PyTorch, and text generation. This is `venv1` in the Vocareum workspace.
 - **`requirements16-18-project.txt`** - Modules 16 and 18 plus the course project: adds `torch`, `vllm`, `unsloth`, and `triton` for PEFT and GRPO fine-tuning. Requires a CUDA GPU. This is `venv2` in the Vocareum workspace.
+
+In the Vocareum workspace, if an import fails, switch the notebook's kernel (**Select Kernel** → **Jupyter Kernel** → **Python (venv1)** or **Python (venv2)**) using the mapping above.
 
 ### Installation Instructions
 
@@ -108,8 +108,8 @@ This educational content is licensed under the **Attribution-NonCommercial-NoDer
 For questions about course content or technical issues:
 - Review the module-specific README files
 - Check the exercise solutions for reference implementations
-- Consult the Udacity Generative AI Nanodegree resources
+- Consult the Udacity Generative AI Fundamentals course resources
 
 ---
 
-**Note**: This repository contains educational materials for the Udacity Generative AI Nanodegree program. All content is designed for learning purposes and follows best practices in generative AI development.
+**Note**: This repository contains educational materials for the Udacity Generative AI Fundamentals course. All content is designed for learning purposes and follows best practices in generative AI development.

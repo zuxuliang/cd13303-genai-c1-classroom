@@ -4,7 +4,6 @@ This project guides you through teaching an instruction-tuned LLM to reason step
 
 Key notebooks and files:
 - `project/starter/gen_ai_fundamentals_project_starter.ipynb`
-- `project/solution/gen_ai_fundamentals_project_solution.ipynb`
 - `requirements.txt`
 
 ## Hardware
